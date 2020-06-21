@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       Asslaam o Alikum g.
+      han g
     </div>
   );
 }
