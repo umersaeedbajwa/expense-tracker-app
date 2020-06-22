@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components/Header.js';
+import { Header } from './components/Header';
 import { Balance } from './components/balance';
 import { AccountSummary } from './components/accountSummary';
 import { TransactionHistory } from './components/transactionHistory';
