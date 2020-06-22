@@ -9,7 +9,7 @@ export const Transaction = ({ transaction }) => {
     const { delTransaction } = useContext(GlobalContext);
 
     const sign = transaction.transactionAmount > 0 ? '+' : '-';
-    const transactiontype = transaction.transactionAmount > 0 ? 'plus' : 'minus';
+    const transactionType = transaction.transactionAmount > 0 ? 'plus' : 'minus';
 
     return (
         <li className="plus">
