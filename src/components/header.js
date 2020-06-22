@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export const Header = () => {
     return (
         <h2>
-            Expense Tracker Umer Saeed
+            Expense Tracker by Umer Saeed
         </h2>
     )
 }
